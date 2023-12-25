@@ -4,7 +4,7 @@ images.addEventListener('click', (e) => {
         let ll = e.target.parentElement
         ll.remove()
     }
-})
+}, false)
 
 // google.addEventListener('click', (e) => {
 //     e.preventDefault()
